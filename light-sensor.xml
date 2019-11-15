@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/aaronw/kicad/Projects/light-sensor/light-sensor.sch</source>
+    <date>Fri 15 Nov 2019 12:48:42 AM PST</date>
+    <tool>Eeschema 5.1.4-5.1.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Gesture and Proximity Sensor</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2019-11-15</date>
+        <source>light-sensor.sch</source>
+        <comment number="1" value="Copyright (C) 2019 Aaron Williams"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ADUX1020</value>
+      <footprint>Aaron:LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADUX1020.pdf</datasheet>
+      <libsource lib="Aaron" part="ADUX1020" description="Phptometric Sensor for Gesture and Proximity"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D98DDE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLV71318PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv713p.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="TLV71318PDBV" description="150mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D9A7DE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>VSMY3940X01-GS08</value>
+      <footprint>Aaron:LED_PLCC-2</footprint>
+      <datasheet>http://www.vishay.com/docs/84220/vsmy3940x01.pdf</datasheet>
+      <fields>
+        <field name="MFR">Vishay Semiconductor Opto Division</field>
+        <field name="MPN">VSMY3940X01-GS08</field>
+      </fields>
+      <libsource lib="Aaron" part="VSMY3940X01-GS08" description="940nm IR-LED, 5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D9E9FF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DA128C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DA61A0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DA6905</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DAB425</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DAEC2B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DB0F5A</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology, DIP package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DC583D</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD0591</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD3FBB</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD44F6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Aaron" part="ADUX1020">
+      <description>Phptometric Sensor for Gesture and Proximity</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ADUX1020.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUX1020</field>
+        <field name="Footprint">Package_CSP:LFCSP-8-1EP_3x2mm_P0.5mm_EP1.6x1.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VREF" type="passive"/>
+        <pin num="4" name="AGND" type="power_in"/>
+        <pin num="5" name="DGND" type="power_in"/>
+        <pin num="6" name="LEDX" type="output"/>
+        <pin num="7" name="~INT" type="output"/>
+        <pin num="8" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aaron" part="VSMY3940X01-GS08">
+      <aliases>
+        <alias>SFH4546</alias>
+        <alias>CQY99</alias>
+        <alias>LD274</alias>
+        <alias>SFH4550</alias>
+      </aliases>
+      <description>940nm IR-LED, 5mm</description>
+      <docs>http://www.vishay.com/docs/84220/vsmy3940x01.pdf</docs>
+      <footprints>
+        <fp>LED*5.0mm*IRGrey*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">VSMY3940X01-GS08</field>
+        <field name="Footprint">LED_SMD:LED_PLCC-2</field>
+        <field name="MFR">Vishay Semiconductor Opto Division</field>
+        <field name="MPN">VSMY3940X01-GS08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology, DIP package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV71209_SOT23-5">
+      <aliases>
+        <alias>TLV71210_SOT23-5</alias>
+        <alias>TLV71211_SOT23-5</alias>
+        <alias>TLV71310PDBV</alias>
+        <alias>TLV71311PDBV</alias>
+        <alias>TLV71312PDBV</alias>
+        <alias>TLV71315PDBV</alias>
+        <alias>TLV71318PDBV</alias>
+        <alias>TLV713185PDBV</alias>
+        <alias>TLV71325PDBV</alias>
+        <alias>TLV71328PDBV</alias>
+        <alias>TLV713285PDBV</alias>
+        <alias>TLV71330PDBV</alias>
+        <alias>TLV71333PDBV</alias>
+        <alias>TLV75509PDBV</alias>
+        <alias>TLV75510PDBV</alias>
+        <alias>TLV75512PDBV</alias>
+        <alias>TLV75515PDBV</alias>
+        <alias>TLV75518PDBV</alias>
+        <alias>TLV75519PDBV</alias>
+        <alias>TLV75525PDBV</alias>
+        <alias>TLV75528PDBV</alias>
+        <alias>TLV75529PDBV</alias>
+        <alias>TLV75530PDBV</alias>
+        <alias>TLV75533PDBV</alias>
+      </aliases>
+      <description>300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv712.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV71209_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Aaron">
+      <uri>/home/aaronw/kicad/library/aaron/Aaron.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(RN1-Pad1)">
+      <node ref="RN1" pin="1"/>
+    </net>
+    <net code="2" name="/~INT">
+      <node ref="U2" pin="7"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="RN1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(JP2-Pad2)">
+      <node ref="RN1" pin="3"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(JP3-Pad2)">
+      <node ref="RN1" pin="4"/>
+      <node ref="JP3" pin="2"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="RN1" pin="6"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="RN1" pin="8"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="7" name="/LEDX">
+      <node ref="U2" pin="6"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="8" name="/VREF">
+      <node ref="U2" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="10" name="/SCL">
+      <node ref="U2" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="11" name="/SDA">
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="4"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="13" name="/1.8V">
+      <node ref="U1" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+  </nets>
+</export>
